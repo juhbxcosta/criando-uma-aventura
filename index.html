@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A mina 43</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Ao entardecer, caminhando por uma floresta enquanto colhe morangos, você se depara com a abandonada mina 43, onde havia ocorrido o assasinato de 26 jovens em 1996, cometido por um dos trabalhadores da mina Jhon Alencar.  Escuto um estranho barulho vindo de seu interior, com um pouco de medo cogito entrar para observar o que estaria acontecendo.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar</button>
+            <button class="btn-proximo" data-proximo="2">Não entrar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao entrar vejo que estou sangrando, havia se cortado com as madeiras que bloqueavam o caminho, estava com um grande corte na perna, você observa que à uma espécie de cadeira que poderia te auxiliar para estancar o ferimento.</p>
+            <button class="btn-proximo" data-proximo="3">sentar e estancar o ferimento</button>
+            <button class="btn-proximo" data-proximo="4">Continuar em frente</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide seguir em frente enquanto observa atentamente os barulhos vindos de dentro do local, estava escurecendo, quando encontra um papel aparentemente antigo e um vidro com um líquido decosconhecido atrás de uma árvore, deveria ler a carta deconhecida?</p>
+            <button class="btn-proximo" data-proximo="5">Ler</button>
+            <button class="btn-proximo" data-proximo="6">Guardar e observar mais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Estava com muita dor,então acaba rasgando um pedaço de sua blusa e acaba fazendo um torniquete, se levanta e respira fundo</p>
+            <button class="btn-proximo" data-proximo="7">Continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.png" alt="imagem menina assustada">
+            <p>Você estava cansada, precisava descansar e estancar o ferimento, por falta de atenção acaba caindo em um enorme buraco e infelizmente não sobrevive.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Estou escondido a 5 horas, sem água nem comida em uma mina desconhecida, vários de meus amigos estão mortos e desmenbrados, só queria sair desse lugar” estava escrito na carta.
+                "Que tipo de brincadeira sem noção é essa?" você se pergunta enfurecida</p>
+            <button class="btn-proximo" data-proximo="7">Ignorar e continuar caminhando</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Seus pensamentos vem á tona "Estou ficando maluca ou aquilo é a mascara que Jhon usava quando matou os 26 jovens? definitavamente devo estar louca"</p>
+            <button class="btn-proximo" data-proximo="8">olhar mais de perto</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo12-caverna.png" alt="imagem caverna">
+            <p>Dentro da caverna ainda havia diversas homenagens para as vítimas, incluindo fotos de sua mãe, uma dos 26 jovens que foram ceifados naquele dia. “pensei que Jhon estava morto” sussuro. Escuto um enorme estralo e me viro lentamente, sentindo todo o meu corpo estremecer. observo Alencar atrás de mim, seu olhar penetrante te amedrontava, ele bufava feito um touro prestes a anvançar em sua direção.</p>
+            <button class="btn-proximo" data-proximo="9">Pegar uma picareta ao meu lado e enfrentalo</button>
+            <button class="btn-proximo" data-proximo="10">Correr</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>"Eu não estou louca!!" você fala enquanto gagueja observando a mascara com o número 143, o número de identicação de Alencar</p>
+            <button class="btn-proximo" data-proximo="7">Sair correndo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo12-usando-ultimas-forças.png" alt="imagem homem mau">
+            <p>Você luta com todas as suas forças, golpenado-lhe em diversas partes do corpo. Ele acaba ficando sem forças, pois não era mais agíl como antes, e vocẽ é jovem e ágil, com um descuido de Alencar você acaba golpeando-lhe na cabeça fatalmente.</p>
+            <button class="btn-proximo" data-proximo="11">Sair do local e chamar ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você acaba tropeçando em cima de uma grande pedra, enquanto luta pela sua vida, é golpeda em várias partes do corpo, mas consegue se lavantar</p>
+            <button class="btn-proximo" data-proximo="12">Correr em desespero</button>
+        </div>
+
+        <div class="passo" id="passo-11"> 
+            <img src="cenario-passo11-cidade-perdida.png" alt="imagem da menina com o polícial">
+            <p>A polícia te econtra ferida e com sua calça rasgada, logo conseguem conter Alencar, que é imediatamente levado a uma prisão</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide então utilizar suas ultimas forças para tentar derrotalo, enquanto lutava bravamente o empurra em uma enorme vala</p>
+            <button class="btn-proximo" data-proximo="11">Sair do local e chamar ajuda</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
